@@ -1,0 +1,45 @@
+// COLORS
+$color-primary-dark: #040c36;
+$color-primary-white: #fff;
+$color-bg: #121212;
+$color-secondary: #008dff;
+
+// FONTS
+$font-primary: "Montserrat", sans-serif;
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
+
+html {
+   box-sizing: border-box;
+   // 1rem = 10px
+   // 10px / 16px * 100% = 62.5%
+   font-size: 62.5%;
+}
+
+html {
+   height: 100%;
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: $font-primary;
+   color: $color-primary-dark;
+   font-weight: 300;
+}
+
+a {
+   text-decoration: none;
+   color: $color-primary-white;
+   font-family: $font-primary;
+}
+
+ul,
+li {
+   list-style: none;
+}
